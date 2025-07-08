@@ -1,0 +1,33 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --inspect src/index.js",
+    "watch": "node-sass -w src/resources/scss/ -o src/public/css/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duydat246/nodejs_blog.git"
+  },
+  "keywords": [
+    "nodejs_blog"
+  ],
+  "author": "dpd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duydat246/nodejs_blog/issues"
+  },
+  "homepage": "https://github.com/duydat246/nodejs_blog#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "express-handlebars": "^8.0.1"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "node-sass": "^9.0.0",
+    "nodemon": "^3.1.10"
+  }
+}
